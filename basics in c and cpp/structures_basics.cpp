@@ -8,7 +8,7 @@ EXAMPLE: if we need to DEFINE a rectangle using structure, we may do so by
   {
     int length;
     int breadth;
-  }
+  };
 
 Assuming that integer takes 2 bytes of memory than this particular structure will take total of 4 bytes of memory, i.e., the SIZE OF A STRUCTURE is the total amount of memory consumed by all its members.
 
@@ -18,7 +18,7 @@ DECLARATION -
   {
     int length;
     int breadth;
-  }
+  };
 
   int main(){
 
@@ -37,7 +37,7 @@ ACCESSING -
   {
     int length;
     int breadth;
-  }
+  };
 
   int main(){
 
