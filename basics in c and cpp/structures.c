@@ -24,3 +24,5 @@ int main(){
   printf("%s", s[1].name);
   printf("%ld", sizeof(s));
 }
+
+/* character should take 1 byte but the nearest bigger size memory is allocated instead and although it still only takes 1 bytes still but a larger memory is allocated to it. This adjustment in memory is called PADDING.*/
