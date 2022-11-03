@@ -11,8 +11,8 @@ int main(){
   p=&a; 
 
   cout<<a<<endl;
-  cout<<p;
-  printf("using pointer %d", *p);
+  cout<<p<<endl;
+  printf("using pointer: %d %d", p, &a);
   
 
   /* "*" is used to take the value from the address. */
