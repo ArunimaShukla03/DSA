@@ -12,6 +12,7 @@ int main(){
 
   cout<<a<<endl;
   cout<<p<<endl;
+  printf("dereferencing: %d\n", *p);
   printf("using pointer: %d %d", p, &a);
   
 
